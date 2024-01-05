@@ -14,8 +14,9 @@ GameObject:
   - component: {fileID: 1323727626723103814}
   - component: {fileID: 5254278725660545630}
   - component: {fileID: 9017684726091948306}
+  - component: {fileID: -8136291487970807277}
   m_Layer: 0
-  m_Name: Coin_2
+  m_Name: Coin
   m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -146,5 +147,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299ff5542f8e7aa4f88a3b4da84dd56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 2
+  score: 0
   rb: {fileID: 5254278725660545630}
+--- !u!114 &-8136291487970807277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9197479048696071244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 607a56c6c2c3036418bd06bb33227a33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  materials:
+  - {fileID: 2100000, guid: 063ec0e4299725541a43469c5099de9a, type: 2}
+  - {fileID: 2100000, guid: 17efa0c6a45634b448ab4d4e9e5a3cdf, type: 2}
+  - {fileID: 2100000, guid: ba10bbe9e6520544cae3ba6855c8111c, type: 2}
+  - {fileID: 2100000, guid: 7369cb4aa5d4d8a42b03e1ad67c9634a, type: 2}
+  - {fileID: 2100000, guid: fbea77300c433d946850ccbadbf13e18, type: 2}
+  - {fileID: 2100000, guid: b69d073e4fd582b42bd6ec4cca87473d, type: 2}
+  - {fileID: 2100000, guid: e576382ef39360a4a93efaa65216e29c, type: 2}
+  - {fileID: 2100000, guid: 78155d2ffb8feda4382d5be1f8953791, type: 2}
+  - {fileID: 2100000, guid: 0aa9b45e6eda79b48ae6bb6fa074d656, type: 2}
+  - {fileID: 2100000, guid: 8b39b62a529aa1944af7bd44702ec260, type: 2}
+  - {fileID: 2100000, guid: 57140fcb63436374181186559b075901, type: 2}
